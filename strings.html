@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<img src = img.jpg alt = "image" width = "100" height = "100">
+       
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script src="strings.js"></script>
+    <title>Input Validation</title>
+</head>
+<body>
+    <!--Input field on page  with required field input and placeholder-->
+    First name <input id="fname" type="text" name="fname" placeholder="Enter your first name"required<br>
+    Last name <input id="lname" type="text" name="lname"placeholder="Enter your last name" required><br>  
+    Zip code <input id="zip" type="text" name="zip"placeholder="Enter your 5 digit zipcode" required><br>
+   <!--validate button to run Function-->
+    <button onclick="validate()">Validate</button>
+    <br>
+    <!-- uses getelementbyID to display a secret message -->
+    <div id="result">Secret Message</div>
+
+</body>
+</html>
